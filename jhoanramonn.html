@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <title>Resolución de problemas sobre Javascript con HTML</title>
+<!-- Resolucion de problemas sobre Javascript con HTML
+Nombre: Jhoan Josue Ramon Ortiz
+Fecha: 11/6/2022
+------------->
+<head>  
+    
+    <script src="funcionesjhoan.js">
+    </script>
+
+</head>
+<body style="background-color: #FF6F61;">
+
+<!--Ejercicio 1-->
+
+            <h1>Resolución de problemas sobre JavaScript con HTML</h1>
+            <br>
+
+            <form>
+            <fieldset>
+
+            <legend>Práctica Número 3</legend>
+            <br>
+            <h1>Ejercicio 1 : Algoritmo que convierte grados Centigrados a Farenheit</h1>
+
+            <label for="gCelsius">Inserte los Grados Centigrados : </label>
+            <input type="text" value="0" id="gCelsius" name="gCelsius">
+            <br>
+        
+            <br>
+            <hr color="black">
+            <h3>Grados Farenheit:</h3>
+            <p id="gFarenheit">0</p>
+            <hr color="black">
+            <br>
+            <span id="conv"></span>
+            <br>
+            <br>
+            <input type="button" name="btnCacular" value="Convertir"
+            onclick= "convertirgradosCentigradosAGradosFarenheit()">
+
+            <br>
+            <hr color="white">
+            <br>
+
+<!--Ejercicio 2-->
+
+            <h1>Ejercicio 2 : Calcular Porcentajes</h1>
+  
+            <legend></legend>
+            <br>
+            <label for="numEntrada">Inserte el número</label>
+            <input type="text" value="0" id="numEntrada" name="numEntrada">
+            <br>
+            <hr color="black">
+            <span id="mid"></span>
+            <hr color="black">
+            <br>
+            <br>
+            <input type="button" name="numCalcular" value="Calcular" onclick="calcularPorcentajes()">
+   
+            <br>
+            <hr color="white">
+            <br>
+
+<!--Ejercicio 3-->
+
+            <h1>Ejercicio 3 : Generar una tabla</h1>
+            <legend>Inserte el tamaño de la tabla: </legend>
+            <br>
+            <label for="fil">Filas</label>
+            <input type="number" value="" id="fil" name="fil">
+            <br>
+            <br>
+            <label for="col">Columnas</label>
+            <input type="number" value="" id="col" name="col">
+            <br>
+            <br>
+            <input type="button" name="spanTabla" value="Generar Tabla"
+            onclick= "generarTablaHTML()">
+            <br>
+            <br>
+            <span id="nums"></span>
+            </fieldset>
+            </form>
+            <br>
+            <hr>
+            <br>
+
+</body>
+</html>
